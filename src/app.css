@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navli {
+  @apply mx-8 font-bold uppercase self-center
+  hover:text-[#5271FF] hover:cursor-pointer
+ transition duration-200 ease-in-out transform hover:scale-105
+}
+
+.navlink {
+  @apply font-bold uppercase self-center
+    hover:text-[#5271FF] hover:cursor-pointer
+   transition duration-200 ease-in-out transform hover:scale-105
+}
+
+.contact {
+  @apply uppercase font-bold text-xl 
+}
+
+.icons {
+  @apply w-5 mr-3 my-5 hover:scale-125
+}
+.bigbtns {
+  @apply uppercase bg-[#5271FF] text-center mt-6 py-4 font-bold rounded w-52 tracking-wide text-lg
+  transition duration-200 transform hover:scale-105
+}
+.mother {
+  @apply  flex flex-col-reverse tracking-wider px-4 py-10 border-b border-b-[#262626] 
+  lg:flex lg:flex-row lg:px-16
+}
+
+.copyright  {
+  @apply text-[10px] text-center tracking-wider  py-10 
+  lg:text-xs lg:py-12
+}
